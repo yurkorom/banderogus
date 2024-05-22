@@ -1,0 +1,142 @@
+html,
+body {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+}
+
+.main-page {
+    background: linear-gradient(270deg, #A5DEFF 0%, #FCFEFF 100%);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    margin-top: 32px;
+    margin-bottom: 57px;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.logo-text {
+    margin-left: 18px;
+}
+
+.banderogus-container {
+    background: #FFFFFF;
+    padding: 60px 56px;
+    align-self: center;
+}
+
+.banderogus-title {
+    color: #1B1D1F;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+    
+.banderogus-greeting {
+    color: #1B1D1F;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+.banderogus-start-text {
+    color: #FF6B0A;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 48px;
+}    
+
+.banderogus-descr {
+    color: #1B1D1F;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 48px;
+}
+
+.banderogus-launch {
+    background: #FF6B0A;
+    border-radius: 8px;
+    padding: 12px 24px;
+    color: #FFFEFE;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.main-page-row {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.banderogus-image {
+    align-self: flex-end;
+}
+
+.gus-facts {
+    padding: 52px 0 72px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gus-title {
+    color: #1B1D1F;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 24px;
+    margin: 16px 0;
+}
+
+.gus-descr {
+    color: #1B1D1F;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    width: 875px;
+}
+
+.gus-facts-container {
+    width: 1170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gus-facts-item {
+    width: 33%;
+}
+
+.gus-fact-title {
+    color: #1B1D1F;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    margin: 12px 0 32px 0;
+}
+
+.gus-fact-descr {
+    color: #1B1D1F;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 280px;
+}
+
+
